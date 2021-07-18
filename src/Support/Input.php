@@ -11,4 +11,18 @@ class Input
     {
         return old($field) ?? request()->input($field) ?? $model->$field ?? $default;
     }
+
+    /**
+     * Category old array
+     */
+    public function old_array($field)
+    {
+        $data = collect();
+        if (old($field)) {
+            for ($i = 0; $i < count(old($field)); $i++) {
+                $data->push(old('category.' . $i));
+            }
+        }
+        return $data;
+    }
 }
