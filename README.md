@@ -1,15 +1,15 @@
-#### Helpers
+# Helpers
 
 Common helper functions.
 
-#### Installation
+## Installation
 
 ```bash
-$ composer require groovey/support
+composer require groovey/support
 ```
 
-#### Test
+## Test
 
 ```bash
-$ ./vendor/bin/phpunit tests
+./vendor/bin/phpunit tests
 ```
