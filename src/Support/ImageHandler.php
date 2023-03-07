@@ -1,4 +1,5 @@
 <?php
+
 namespace Pandango\Support;
 
 use Intervention\Image\Facades\Image;
@@ -6,7 +7,6 @@ use Illuminate\Support\Facades\File;
 
 class ImageHandler
 {
-
     /**
      * Save the image and include a resized copy of it
      */
@@ -18,7 +18,6 @@ class ImageHandler
         $toFilename  = $data['toFilename'];
 
         if ($image) {
-
             // Get filename info
             $filenameWithExtension      = $image->getClientOriginalName();
             $extension                  = $image->getClientOriginalExtension();

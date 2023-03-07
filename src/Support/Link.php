@@ -1,11 +1,11 @@
 <?php
+
 namespace Pandango\Support;
 
 use App\Models\Customer;
 
 class Link
 {
-
     /**
      * Overides route function. The $params accespts string and object.
      *

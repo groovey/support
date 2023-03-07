@@ -1,4 +1,5 @@
 <?php
+
 namespace Pandango\Support;
 
 class Tree
@@ -83,7 +84,6 @@ class Tree
         // fill in 'subcategories' while maintaining the references using '&' operator
         foreach ($categories as $key => &$data) {
             if ($data['parent_id'] != null) {
-
                 // With key is for formatting
                 if ($withKey == true) {
                     $categories[$data['parent_id']]['subcategories'][$data['slug']] = &$data;
@@ -95,7 +95,6 @@ class Tree
 
         // Cleanup duplicate occurences
         foreach ($categories as $category) {
-
             // Removed unwanted duplicates
             if ($category['parent_id'] != null) {
                 unset($categories[$category['id']]);

@@ -1,4 +1,5 @@
 <?php
+
 namespace Pandango\Support;
 
 class Theme
