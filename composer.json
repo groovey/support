@@ -1,9 +1,11 @@
 {
-    "name": "groovey/helpers",
+    "name": "groovey/support",
     "description": "Common helper files",
     "type": "library",
     "license": "MIT",
-    "keywords": ["pandango"],
+    "keywords": [
+        "pandango"
+    ],
     "authors": [
         {
             "name": "Harold Kim Cantil",
