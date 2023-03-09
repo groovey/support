@@ -5,7 +5,7 @@ Common helper functions.
 ## Installation
 
 ```bash
-composer require groovey/support
+composer require groovey/support:dev-main
 ```
 
 ## Test
