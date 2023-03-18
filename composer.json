@@ -15,7 +15,7 @@
     "minimum-stability": "dev",
     "autoload": {
         "psr-4": {
-            "Pandango\\": "src"
+            "Groovey\\": "src"
         },
         "files": [
             "src/Helper/array.php",
