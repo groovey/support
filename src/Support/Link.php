@@ -1,6 +1,6 @@
 <?php
 
-namespace Pandango\Support;
+namespace Groovey\Support;
 
 use App\Models\Customer;
 

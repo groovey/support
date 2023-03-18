@@ -1,6 +1,6 @@
 <?php
 
-namespace Pandango\Support;
+namespace Groovey\Support;
 
 use Intervention\Image\Facades\Image;
 use Illuminate\Support\Facades\File;

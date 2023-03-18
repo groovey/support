@@ -1,6 +1,6 @@
 <?php
 
-namespace Pandango\Traits;
+namespace Groovey\Traits;
 
 use Illuminate\Database\Eloquent\Builder;
 
@@ -15,7 +15,7 @@ trait Optionable
     {
         $options = collect([]);
         foreach ($this->$property as $option) {
-            $value = $ucfirst ? ucfirst($option): $option;
+            $value = $ucfirst ? ucfirst($option) : $option;
             $options->put($option, $value);
         }
 

@@ -1,6 +1,6 @@
 <?php
 
-namespace Pandango\Support;
+namespace Groovey\Support;
 
 /**
  * Library for https://heroicons.com/

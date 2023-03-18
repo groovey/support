@@ -6,7 +6,7 @@ $rand = random_array(['one', 'two' , 'three']);
 
 print string_mask($rand);
 
-use Pandango\Support\Test;
+use Groovey\Support\Test;
 
-$test = new Test;
+$test = new Test();
 $test->hello();

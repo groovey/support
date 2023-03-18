@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-use Pandango\Support\Tree;
+use Groovey\Support\Tree;
 use PHPUnit\Framework\TestCase;
 
 class TreeTest extends TestCase

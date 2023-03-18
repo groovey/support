@@ -1,6 +1,6 @@
 <?php
 
-namespace Pandango\Traits;
+namespace Groovey\Traits;
 
 use Illuminate\Database\Eloquent\Builder;
 

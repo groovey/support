@@ -1,6 +1,6 @@
 # Support
 
-Common helper functions.
+Common helper functions for all Laravel Apps.
 
 ## Installation
 

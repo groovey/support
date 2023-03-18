@@ -1,6 +1,6 @@
 <?php
 
-namespace Pandango\Traits;
+namespace Groovey\Traits;
 
 trait DateFormatable
 {
