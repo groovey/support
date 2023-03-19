@@ -6,8 +6,10 @@
  * $amount accepts null, int, and float.
  */
 if (!function_exists('format_money')) {
-    function format_money(float $amount = null, bool $showCurrency = true)
+    function format_money($amount, bool $showCurrency = true)
     {
+        $amount = $amount ?? 0;
+
         if ($showCurrency) {
             $symbol = $symbol ?? config('money.symbol');
         } else {
