@@ -18,13 +18,13 @@
             "Groovey\\": "src"
         },
         "files": [
-            "src/Helper/array.php",
-            "src/Helper/date.php",
-            "src/Helper/debug.php",
-            "src/Helper/http.php",
-            "src/Helper/misc.php",
-            "src/Helper/number.php",
-            "src/Helper/string.php"
+            "src/array.php",
+            "src/date.php",
+            "src/debug.php",
+            "src/http.php",
+            "src/misc.php",
+            "src/number.php",
+            "src/string.php"
         ]
     },
     "require-dev": {
